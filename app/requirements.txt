@@ -1,0 +1,11 @@
+fastapi==0.63.0
+loguru
+ujson
+orjson
+databases[mysql]
+loguru==0.5.3
+uvicorn==0.13.3
+click==7.1.2
+passlib
+aioredis
+aiofiles==0.7.0
