@@ -11,3 +11,4 @@ DOCS_URL: str = ""
 OPENAPI_URL: str = ""
 
 DEBUG = True
+REDIS_URL = ''

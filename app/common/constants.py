@@ -1,5 +1,14 @@
 from enum import EnumMeta, IntEnum
 
+from faker import Faker
+
+fake = Faker(locale='zh_CN')
+
+TOTAL_KEY = "user:id"
+NEW_KEY = "user:new"
+DATE_NEW_KEY = "user:id:{date}"
+INTER_KEY = "user:id:inter"
+
 
 def get_key_by_value(enum, value):
     for k, v in enum.__members__.iteritems():
